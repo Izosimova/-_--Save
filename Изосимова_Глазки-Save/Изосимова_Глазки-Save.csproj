@@ -87,6 +87,9 @@
     <Compile Include="MaterialType.cs">
       <DependentUpon>Izosimova.tt</DependentUpon>
     </Compile>
+    <Compile Include="myWindow.xaml.cs">
+      <DependentUpon>myWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <DependentUpon>Izosimova.tt</DependentUpon>
     </Compile>
@@ -144,6 +147,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="myWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Manager.cs" />
@@ -292,6 +299,7 @@
     <Resource Include="agents\agent_97.png" />
     <Resource Include="agents\agent_98.png" />
     <Resource Include="agents\agent_99.png" />
+    <Resource Include="agents\picture.png" />
     <Content Include="Izosimova.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Izosimova.Context.cs</LastGenOutput>
